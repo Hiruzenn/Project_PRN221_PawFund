@@ -17,6 +17,7 @@ public partial class Event
 
     public DateTime? EndTime { get; set; }
 
+
     public string? Location { get; set; }
 
     public string? Status { get; set; }

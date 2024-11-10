@@ -17,4 +17,8 @@
     <Folder Include="Page\UserPage\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Service\Service.csproj" />
+  </ItemGroup>
+
 </Project>
