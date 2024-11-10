@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\vuhuu\\source\\repos\\PawFundSystem\\PawFundSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PawFundSystem.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PawFundSystem.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\vuhuu\\source\\repos\\PawFundSystem\\PawFundSystem\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\vuhuu\\source\\repos\\PawFundSystem\\PawFundSystem\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\vuhuu\\source\\repos\\PawFundSystem\\PawFundSystem\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\vuhuu\\source\\repos\\PawFundSystem\\PawFundSystem\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PawFundSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PawFundSystem.props",
+      "PackagePath": "build\\PawFundSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PawFundSystem.props",
+      "PackagePath": "buildMultiTargeting\\PawFundSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PawFundSystem.props",
+      "PackagePath": "buildTransitive\\PawFundSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

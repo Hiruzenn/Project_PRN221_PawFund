@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Page\AdoptionRequestPage\" />
+    <Folder Include="Page\EventPage\" />
+    <Folder Include="Page\FeedbackPage\" />
+    <Folder Include="Page\LoginPage\" />
+    <Folder Include="Page\VolunteerTaskPage\" />
+    <Folder Include="Page\ShelterPage\" />
+    <Folder Include="Page\PetPage\" />
+    <Folder Include="Page\UserPage\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,55 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PawFundSystem
+build_property.RootNamespace = PawFundSystem
+build_property.ProjectDir = C:\Users\vuhuu\source\repos\PawFundSystem\PawFundSystem\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\vuhuu\source\repos\PawFundSystem\PawFundSystem
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/vuhuu/source/repos/PawFundSystem/PawFundSystem/Page/App.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZVxBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vuhuu/source/repos/PawFundSystem/PawFundSystem/Page/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZVxQYWdlc1xDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vuhuu/source/repos/PawFundSystem/PawFundSystem/Page/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZVxQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vuhuu/source/repos/PawFundSystem/PawFundSystem/Page/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZVxQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vuhuu/source/repos/PawFundSystem/PawFundSystem/Page/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZVxQYWdlc1xXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vuhuu/source/repos/PawFundSystem/PawFundSystem/Page/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZVxSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vuhuu/source/repos/PawFundSystem/PawFundSystem/Page/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZVxfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vuhuu/source/repos/PawFundSystem/PawFundSystem/Page/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZVxMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-x330mt3hqk
+
+[C:/Users/vuhuu/source/repos/PawFundSystem/PawFundSystem/Page/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZVxMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-5jexg449lm
