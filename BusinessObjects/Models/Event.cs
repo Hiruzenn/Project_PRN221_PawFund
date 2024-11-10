@@ -19,8 +19,6 @@ public partial class Event
 
     public string? Location { get; set; }
 
-    public string? Supporters { get; set; }
-
     public string? Status { get; set; }
 
     public virtual User? User { get; set; }

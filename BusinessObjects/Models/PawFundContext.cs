@@ -41,7 +41,7 @@ public partial class PawFundContext : DbContext
     {
         modelBuilder.Entity<AdoptionRequest>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Adoption__3214EC07DF835FAE");
+            entity.HasKey(e => e.Id).HasName("PK__Adoption__3214EC077AFB101D");
 
             entity.ToTable("AdoptionRequest");
 
@@ -72,7 +72,7 @@ public partial class PawFundContext : DbContext
 
         modelBuilder.Entity<Event>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Event__3214EC07C9D9D5C0");
+            entity.HasKey(e => e.Id).HasName("PK__Event__3214EC072FB8BC84");
 
             entity.ToTable("Event");
 
@@ -86,7 +86,6 @@ public partial class PawFundContext : DbContext
             entity.Property(e => e.Status)
                 .HasMaxLength(20)
                 .IsUnicode(false);
-            entity.Property(e => e.Supporters).IsUnicode(false);
             entity.Property(e => e.Title)
                 .HasMaxLength(255)
                 .IsUnicode(false);
@@ -98,7 +97,7 @@ public partial class PawFundContext : DbContext
 
         modelBuilder.Entity<Feedback>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Feedback__3214EC07C901A203");
+            entity.HasKey(e => e.Id).HasName("PK__Feedback__3214EC07851E14C5");
 
             entity.ToTable("Feedback");
 
@@ -117,7 +116,7 @@ public partial class PawFundContext : DbContext
 
         modelBuilder.Entity<HealthCheck>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__HealthCh__3214EC07EC223589");
+            entity.HasKey(e => e.Id).HasName("PK__HealthCh__3214EC0712DD9808");
 
             entity.Property(e => e.Id).ValueGeneratedNever();
             entity.Property(e => e.CheckDate).HasColumnType("datetime");
@@ -143,7 +142,7 @@ public partial class PawFundContext : DbContext
 
         modelBuilder.Entity<Notification>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Notifica__3214EC07A6E98E78");
+            entity.HasKey(e => e.Id).HasName("PK__Notifica__3214EC077414B36A");
 
             entity.ToTable("Notification");
 
@@ -162,7 +161,7 @@ public partial class PawFundContext : DbContext
 
         modelBuilder.Entity<Pet>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Pet__3214EC07B4D4D5FD");
+            entity.HasKey(e => e.Id).HasName("PK__Pet__3214EC077679604D");
 
             entity.ToTable("Pet");
 
@@ -202,11 +201,11 @@ public partial class PawFundContext : DbContext
 
         modelBuilder.Entity<Shelter>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Shelter__3214EC077862E962");
+            entity.HasKey(e => e.Id).HasName("PK__Shelter__3214EC074955BC0C");
 
             entity.ToTable("Shelter");
 
-            entity.HasIndex(e => e.ShelterCode, "UQ__Shelter__756263203DEF1E71").IsUnique();
+            entity.HasIndex(e => e.ShelterCode, "UQ__Shelter__75626320242C138B").IsUnique();
 
             entity.Property(e => e.Id).ValueGeneratedNever();
             entity.Property(e => e.Location)
@@ -226,11 +225,11 @@ public partial class PawFundContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__User__3214EC07F8C873CA");
+            entity.HasKey(e => e.Id).HasName("PK__User__3214EC0742B5AEAE");
 
             entity.ToTable("User");
 
-            entity.HasIndex(e => e.Email, "UQ__User__A9D10534ADAD3232").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__User__A9D1053417FB4A16").IsUnique();
 
             entity.Property(e => e.Id).ValueGeneratedNever();
             entity.Property(e => e.Address)
@@ -260,7 +259,7 @@ public partial class PawFundContext : DbContext
 
         modelBuilder.Entity<VolunteerTask>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Voluntee__3214EC0742360C56");
+            entity.HasKey(e => e.Id).HasName("PK__Voluntee__3214EC07C27655D9");
 
             entity.Property(e => e.Id).ValueGeneratedNever();
             entity.Property(e => e.CompletedDate).HasColumnType("datetime");

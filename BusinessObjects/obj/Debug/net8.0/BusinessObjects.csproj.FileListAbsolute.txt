@@ -12,3 +12,4 @@ C:\Users\vuhuu\source\repos\PawFundSystem\BusinessObjects\obj\Debug\net8.0\refin
 C:\Users\vuhuu\source\repos\PawFundSystem\BusinessObjects\obj\Debug\net8.0\BusinessObjects.pdb
 C:\Users\vuhuu\source\repos\PawFundSystem\BusinessObjects\obj\Debug\net8.0\BusinessObjects.genruntimeconfig.cache
 C:\Users\vuhuu\source\repos\PawFundSystem\BusinessObjects\obj\Debug\net8.0\ref\BusinessObjects.dll
+C:\Users\vuhuu\source\repos\PawFundSystem\BusinessObjects\obj\Debug\net8.0\BusinessObjects.sourcelink.json
